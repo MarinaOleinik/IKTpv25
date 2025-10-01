@@ -13,7 +13,7 @@ vanus = 18              #int
 eesnimi = "Jaak"        #str
 pikkus = 1.65           #float
 kas_käib_koolis = True  #bool
-print(f"vanus {vanus} on: {type(vanus)}")
+print(f"vanus {vanus} on: {type(vanus)}") #
 print(f"eesnimi {eesnimi} on: {type(eesnimi)}")
 print(f"pikkus {pikkus} on: {type(pikkus)}")
 print(f"kas_käib_koolis {kas_käib_koolis} on: {type(kas_käib_koolis)}")
