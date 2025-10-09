@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>35b5db7d-558d-4db0-a8ff-55ff2e4c3590</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Vigade_otsing.py</StartupFile>
+    <StartupFile>Teema2_Valikud.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Teema1_Lineaarsed_funktsioonid.py" />
+    <Compile Include="Teema2_Valikud.py" />
     <Compile Include="Vigade_otsing.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

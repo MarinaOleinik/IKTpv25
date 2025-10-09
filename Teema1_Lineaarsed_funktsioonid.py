@@ -1,24 +1,3 @@
-from graphviz import Digraph
-
-# Loome klasside vaheliste seoste diagrammi
-dot = Digraph(comment="OOP MAUI Sümbolimäng Klassidiagramm")
-
-# Defineerime klassid
-dot.node("MainPage", "MainPage\n(UI ja sündmuste haldus)")
-dot.node("Theme", "Theme\n(teema: värvid, font)")
-dot.node("Player", "Player\n(mängija: nimi, sümbol)")
-dot.node("Game", "Game\n(mänguloogika, sündmused)")
-
-# Seosed
-dot.edge("MainPage", "Theme", label="valib ja rakendab")
-dot.edge("MainPage", "Player", label="loob mängija")
-dot.edge("MainPage", "Game", label="käivitab mängu")
-dot.edge("Game", "Player", label="kasutab sümbolit")
-dot.edge("Game", "Theme", label="kasutab kujundust")
-dot.edge("Game", "MainPage", label="kutsub sündmusi:\nOnShowSymbol, OnHideSymbol,\nOnGameFinished")
-
-# Näitame diagrammi
-dot.render("maui_oop_diagram", format="png", cleanup=True)
 
 # Harjutus 1.1. Muutujad ja sisend
 #5.
