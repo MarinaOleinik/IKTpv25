@@ -1,3 +1,18 @@
+
+import msvcrt
+#Sisestamise ajal asendatakse kõik tähed *-märgiga
+täht=""
+while True:
+    t=msvcrt.getwch()
+    print(t.replace(t,"*"),end="",flush=True)   
+    if t=='\r': #Enter
+        break
+    else:
+        täht+=t
+print()
+print(list(täht))
+
+
 #List-loend
 #Loome listi
 l=[] #tühi list
