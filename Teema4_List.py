@@ -1,3 +1,5 @@
+from random import *
+
 
 import msvcrt
 #Sisestamise ajal asendatakse kõik tähed *-märgiga
