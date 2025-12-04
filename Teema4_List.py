@@ -84,6 +84,7 @@ while True:
         
     print(f"Uuendatud list on {l}")
 
+    
     #loend.extend()
     #loend.sort()
     #loend.reverse()

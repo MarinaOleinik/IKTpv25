@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>35b5db7d-558d-4db0-a8ff-55ff2e4c3590</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Too_4_1.py</StartupFile>
+    <StartupFile>Tavaline_fail.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Mooduli_fail.py" />
+    <Compile Include="Tavaline_fail.py" />
     <Compile Include="Teema1_Lineaarsed_funktsioonid.py" />
     <Compile Include="Teema2_Valikud.py" />
     <Compile Include="Teema3_Kordused.py" />
